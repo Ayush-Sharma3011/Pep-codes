@@ -32,9 +32,9 @@ public class q4 {
         // System.out.println((x>y)?x:y);
 
         int num =10;
-        int *ptr = &num;
+        int ptr = num;
         // doubletheNumber(num);
-        System.out.println(*(ptr+1));
+        System.out.println((ptr+1));
 
         
         // derefrencing a pointer when we put * two time it givews us the value of the pointer and when we put * one time it gives us the address of the pointer
